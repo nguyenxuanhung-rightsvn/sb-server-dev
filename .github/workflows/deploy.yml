@@ -1,7 +1,5 @@
 name: Deploy to Gitlab
-on:
-  push:
-    branches: [ develop ]
+on: workflow_dispatch
 jobs:
   deploy_to_gitlab:
     runs-on: ubuntu-latest
